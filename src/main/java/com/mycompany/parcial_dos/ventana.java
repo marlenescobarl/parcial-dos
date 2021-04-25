@@ -28,11 +28,11 @@ public class ventana extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jLabel5 = new javax.swing.JLabel();
+        jLabel_necflis = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
 
-        jLabel5.setText("jLabel5");
+        jLabel_necflis.setText("Necflis");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -40,15 +40,15 @@ public class ventana extends javax.swing.JFrame {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(216, 216, 216)
-                .addComponent(jLabel5)
-                .addContainerGap(247, Short.MAX_VALUE))
+                .addComponent(jLabel_necflis)
+                .addContainerGap(265, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
                 .addGap(28, 28, 28)
-                .addComponent(jLabel5)
-                .addContainerGap(288, Short.MAX_VALUE))
+                .addComponent(jLabel_necflis)
+                .addContainerGap(304, Short.MAX_VALUE))
         );
 
         pack();
@@ -90,6 +90,6 @@ public class ventana extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JLabel jLabel5;
+    private javax.swing.JLabel jLabel_necflis;
     // End of variables declaration//GEN-END:variables
 }
