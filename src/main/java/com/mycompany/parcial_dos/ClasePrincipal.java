@@ -32,14 +32,26 @@ public class ClasePrincipal
                             "1. Ver listado de clientes" +
                             "2.crear nuevo cliente" + 
                             "3. Seleccionar cliente"));
-                        
+                        switch(op)
+                        {
+                            case 1:
+                                
+                                pila.MostrarValores();
+                                break;
+                            case 2:
+                                nodo = Integer.parseInt(JOptionPane.showInputDialog(null, 
+                                "Ingresar Cliente"));
+                                pila.InsertarNodo(nodo);
+                                break;
+                            case 3:
+                                break;
+                                        
+                        }
                         break;
                     case 2:
                         break;
+
                     case 3:
-                        pila.MostrarValores();
-                        break;
-                    case 4:
                         
                         break;
                     default:
