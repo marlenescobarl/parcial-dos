@@ -32,6 +32,9 @@ public class ventana extends javax.swing.JFrame {
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenu2 = new javax.swing.JMenu();
+        jMenuBar3 = new javax.swing.JMenuBar();
+        jMenu3 = new javax.swing.JMenu();
+        jMenu4 = new javax.swing.JMenu();
         jLabel1_necflis = new javax.swing.JLabel();
         jMenuBar2 = new javax.swing.JMenuBar();
         jMenu1_clientes = new javax.swing.JMenu();
@@ -43,12 +46,19 @@ public class ventana extends javax.swing.JFrame {
         jMenuItem5_TipoPeli = new javax.swing.JMenuItem();
         jMenuItem6_GeneroPeli = new javax.swing.JMenuItem();
         jMenuItem7_SinopsisPeli = new javax.swing.JMenuItem();
+        jMenu5_Salir = new javax.swing.JMenu();
 
         jMenu1.setText("File");
         jMenuBar1.add(jMenu1);
 
         jMenu2.setText("Edit");
         jMenuBar1.add(jMenu2);
+
+        jMenu3.setText("File");
+        jMenuBar3.add(jMenu3);
+
+        jMenu4.setText("Edit");
+        jMenuBar3.add(jMenu4);
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(204, 204, 255));
@@ -99,6 +109,9 @@ public class ventana extends javax.swing.JFrame {
         jMenu2_peliculas.add(jMenuItem7_SinopsisPeli);
 
         jMenuBar2.add(jMenu2_peliculas);
+
+        jMenu5_Salir.setText("Salir");
+        jMenuBar2.add(jMenu5_Salir);
 
         setJMenuBar(jMenuBar2);
 
@@ -178,8 +191,12 @@ public class ventana extends javax.swing.JFrame {
     private javax.swing.JMenu jMenu1_clientes;
     private javax.swing.JMenu jMenu2;
     private javax.swing.JMenu jMenu2_peliculas;
+    private javax.swing.JMenu jMenu3;
+    private javax.swing.JMenu jMenu4;
+    private javax.swing.JMenu jMenu5_Salir;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuBar jMenuBar2;
+    private javax.swing.JMenuBar jMenuBar3;
     private javax.swing.JMenuItem jMenuItem1_VerListado;
     private javax.swing.JMenuItem jMenuItem2_NuevoCliente;
     private javax.swing.JMenuItem jMenuItem3_SeleccionarCliente;
