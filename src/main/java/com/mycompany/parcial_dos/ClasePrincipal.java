@@ -1,14 +1,27 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package com.mycompany.parcial_dos;
 
 /**
- *
- * @author escobarlima
+ Esta clase contiene el menu de opciones, tanto su parte logica como
+  su parte grafica
  */
-public class ClasePrincipal {
-    
+public class ClasePrincipal 
+{
+    public static void main (String args [])
+    {
+        int opcion = 0, nodo = 0;
+        Pila pila = new Pila();
+        
+        do
+        {
+            try
+            { 
+                opcion = Interger.parseInt(JOptionPane.showInputDialog(null, 
+                        "1. Clientes\n" +
+                        "2. Peliculas\n"));
+            }catch(NumberFormatException e)
+            {
+            }
+        }while(opcion !=2);
+    }
 }
