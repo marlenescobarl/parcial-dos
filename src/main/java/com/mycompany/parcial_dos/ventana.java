@@ -34,15 +34,15 @@ public class ventana extends javax.swing.JFrame {
         jMenu2 = new javax.swing.JMenu();
         jLabel1_necflis = new javax.swing.JLabel();
         jMenuBar2 = new javax.swing.JMenuBar();
-        jMenu3 = new javax.swing.JMenu();
-        jMenuItem1 = new javax.swing.JMenuItem();
-        jMenuItem2 = new javax.swing.JMenuItem();
-        jMenuItem3 = new javax.swing.JMenuItem();
-        jMenu4 = new javax.swing.JMenu();
-        jMenuItem4 = new javax.swing.JMenuItem();
-        jMenuItem5 = new javax.swing.JMenuItem();
-        jMenuItem6 = new javax.swing.JMenuItem();
-        jMenuItem7 = new javax.swing.JMenuItem();
+        jMenu1_clientes = new javax.swing.JMenu();
+        jMenuItem1_VerListado = new javax.swing.JMenuItem();
+        jMenuItem2_NuevoCliente = new javax.swing.JMenuItem();
+        jMenuItem3_SeleccionarCliente = new javax.swing.JMenuItem();
+        jMenu2_peliculas = new javax.swing.JMenu();
+        jMenuItem4_NombrePeli = new javax.swing.JMenuItem();
+        jMenuItem5_TipoPeli = new javax.swing.JMenuItem();
+        jMenuItem6_GeneroPeli = new javax.swing.JMenuItem();
+        jMenuItem7_SinopsisPeli = new javax.swing.JMenuItem();
 
         jMenu1.setText("File");
         jMenuBar1.add(jMenu1);
@@ -56,34 +56,49 @@ public class ventana extends javax.swing.JFrame {
         jLabel1_necflis.setFont(new java.awt.Font("Oriya MN", 0, 24)); // NOI18N
         jLabel1_necflis.setText("NECFLIS");
 
-        jMenu3.setText("Clientes");
+        jMenu1_clientes.setText("Clientes");
 
-        jMenuItem1.setText("Ver listado de clientes");
-        jMenu3.add(jMenuItem1);
+        jMenuItem1_VerListado.setText("Ver listado de clientes");
+        jMenu1_clientes.add(jMenuItem1_VerListado);
 
-        jMenuItem2.setText("Crear nuevo cliente");
-        jMenu3.add(jMenuItem2);
+        jMenuItem2_NuevoCliente.setText("Crear nuevo cliente");
+        jMenuItem2_NuevoCliente.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem2_NuevoClienteActionPerformed(evt);
+            }
+        });
+        jMenu1_clientes.add(jMenuItem2_NuevoCliente);
 
-        jMenuItem3.setText("Seleccionar cliente");
-        jMenu3.add(jMenuItem3);
+        jMenuItem3_SeleccionarCliente.setText("Seleccionar cliente");
+        jMenuItem3_SeleccionarCliente.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem3_SeleccionarClienteActionPerformed(evt);
+            }
+        });
+        jMenu1_clientes.add(jMenuItem3_SeleccionarCliente);
 
-        jMenuBar2.add(jMenu3);
+        jMenuBar2.add(jMenu1_clientes);
 
-        jMenu4.setText("Peliculas");
+        jMenu2_peliculas.setText("Peliculas");
 
-        jMenuItem4.setText("Nombre");
-        jMenu4.add(jMenuItem4);
+        jMenuItem4_NombrePeli.setText("Nombre");
+        jMenu2_peliculas.add(jMenuItem4_NombrePeli);
 
-        jMenuItem5.setText("Tipo");
-        jMenu4.add(jMenuItem5);
+        jMenuItem5_TipoPeli.setText("Tipo");
+        jMenuItem5_TipoPeli.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jMenuItem5_TipoPeliActionPerformed(evt);
+            }
+        });
+        jMenu2_peliculas.add(jMenuItem5_TipoPeli);
 
-        jMenuItem6.setText("Género");
-        jMenu4.add(jMenuItem6);
+        jMenuItem6_GeneroPeli.setText("Género");
+        jMenu2_peliculas.add(jMenuItem6_GeneroPeli);
 
-        jMenuItem7.setText("Sinopsis");
-        jMenu4.add(jMenuItem7);
+        jMenuItem7_SinopsisPeli.setText("Sinopsis");
+        jMenu2_peliculas.add(jMenuItem7_SinopsisPeli);
 
-        jMenuBar2.add(jMenu4);
+        jMenuBar2.add(jMenu2_peliculas);
 
         setJMenuBar(jMenuBar2);
 
@@ -92,20 +107,33 @@ public class ventana extends javax.swing.JFrame {
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(250, 250, 250)
+                .addGap(187, 187, 187)
                 .addComponent(jLabel1_necflis)
-                .addContainerGap(333, Short.MAX_VALUE))
+                .addContainerGap(239, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(layout.createSequentialGroup()
-                .addGap(27, 27, 27)
+                .addGap(102, 102, 102)
                 .addComponent(jLabel1_necflis)
-                .addContainerGap(347, Short.MAX_VALUE))
+                .addContainerGap(272, Short.MAX_VALUE))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jMenuItem3_SeleccionarClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem3_SeleccionarClienteActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem3_SeleccionarClienteActionPerformed
+
+    private void jMenuItem5_TipoPeliActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem5_TipoPeliActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jMenuItem5_TipoPeliActionPerformed
+
+    private void jMenuItem2_NuevoClienteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jMenuItem2_NuevoClienteActionPerformed
+        // TODO add your handling code here:
+      
+    }//GEN-LAST:event_jMenuItem2_NuevoClienteActionPerformed
 
     /**
      * @param args the command line arguments
@@ -147,17 +175,17 @@ public class ventana extends javax.swing.JFrame {
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JLabel jLabel1_necflis;
     private javax.swing.JMenu jMenu1;
+    private javax.swing.JMenu jMenu1_clientes;
     private javax.swing.JMenu jMenu2;
-    private javax.swing.JMenu jMenu3;
-    private javax.swing.JMenu jMenu4;
+    private javax.swing.JMenu jMenu2_peliculas;
     private javax.swing.JMenuBar jMenuBar1;
     private javax.swing.JMenuBar jMenuBar2;
-    private javax.swing.JMenuItem jMenuItem1;
-    private javax.swing.JMenuItem jMenuItem2;
-    private javax.swing.JMenuItem jMenuItem3;
-    private javax.swing.JMenuItem jMenuItem4;
-    private javax.swing.JMenuItem jMenuItem5;
-    private javax.swing.JMenuItem jMenuItem6;
-    private javax.swing.JMenuItem jMenuItem7;
+    private javax.swing.JMenuItem jMenuItem1_VerListado;
+    private javax.swing.JMenuItem jMenuItem2_NuevoCliente;
+    private javax.swing.JMenuItem jMenuItem3_SeleccionarCliente;
+    private javax.swing.JMenuItem jMenuItem4_NombrePeli;
+    private javax.swing.JMenuItem jMenuItem5_TipoPeli;
+    private javax.swing.JMenuItem jMenuItem6_GeneroPeli;
+    private javax.swing.JMenuItem jMenuItem7_SinopsisPeli;
     // End of variables declaration//GEN-END:variables
 }

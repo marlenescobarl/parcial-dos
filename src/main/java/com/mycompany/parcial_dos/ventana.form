@@ -22,49 +22,58 @@
     </Container>
     <Menu class="javax.swing.JMenuBar" name="jMenuBar2">
       <SubComponents>
-        <Menu class="javax.swing.JMenu" name="jMenu3">
+        <Menu class="javax.swing.JMenu" name="jMenu1_clientes">
           <Properties>
             <Property name="text" type="java.lang.String" value="Clientes"/>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem1_VerListado">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Ver listado de clientes"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem2_NuevoCliente">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Crear nuevo cliente"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem2_NuevoClienteActionPerformed"/>
+              </Events>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem3">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem3_SeleccionarCliente">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Seleccionar cliente"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem3_SeleccionarClienteActionPerformed"/>
+              </Events>
             </MenuItem>
           </SubComponents>
         </Menu>
-        <Menu class="javax.swing.JMenu" name="jMenu4">
+        <Menu class="javax.swing.JMenu" name="jMenu2_peliculas">
           <Properties>
             <Property name="text" type="java.lang.String" value="Peliculas"/>
           </Properties>
           <SubComponents>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem4">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem4_NombrePeli">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Nombre"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem5">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem5_TipoPeli">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Tipo"/>
               </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jMenuItem5_TipoPeliActionPerformed"/>
+              </Events>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem6">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem6_GeneroPeli">
               <Properties>
                 <Property name="text" type="java.lang.String" value="G&#xe9;nero"/>
               </Properties>
             </MenuItem>
-            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem7">
+            <MenuItem class="javax.swing.JMenuItem" name="jMenuItem7_SinopsisPeli">
               <Properties>
                 <Property name="text" type="java.lang.String" value="Sinopsis"/>
               </Properties>
@@ -101,18 +110,18 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="250" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="187" max="-2" attributes="0"/>
               <Component id="jLabel1_necflis" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="333" max="32767" attributes="0"/>
+              <EmptySpace pref="239" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="27" max="-2" attributes="0"/>
+              <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
               <Component id="jLabel1_necflis" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="347" max="32767" attributes="0"/>
+              <EmptySpace pref="272" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
